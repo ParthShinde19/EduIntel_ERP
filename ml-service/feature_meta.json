@@ -1,0 +1,27 @@
+{
+  "features": [
+    "sgpa_drop",
+    "current_cgpa",
+    "active_kts",
+    "attendance_percentage",
+    "rolling_30day_attendance_drop",
+    "fee_defaulter_flag",
+    "library_overdue_flag"
+  ],
+  "feature_labels": {
+    "sgpa_drop": "SGPA Drop Between Semesters",
+    "current_cgpa": "Current CGPA",
+    "active_kts": "Unresolved KT Backlogs",
+    "attendance_percentage": "Overall Attendance %",
+    "rolling_30day_attendance_drop": "30-Day Rolling Attendance Drop",
+    "fee_defaulter_flag": "Pending Tuition Fee Status",
+    "library_overdue_flag": "Overdue Library Books"
+  },
+  "classes": [
+    "Low",
+    "Medium",
+    "High",
+    "Critical"
+  ],
+  "accuracy": 0.788
+}
